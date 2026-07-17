@@ -1,0 +1,12 @@
+__pycache__
+.venv
+dist
+build
+.eggs
+*.pyc
+*.db
+.env
+.idea
+.vscode
+AGENTS.md
+CLAUDE.md
