@@ -6,7 +6,5 @@ build
 *.pyc
 *.db
 .env
-.idea
-.vscode
 AGENTS.md
 CLAUDE.md

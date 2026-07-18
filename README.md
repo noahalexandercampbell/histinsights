@@ -1,6 +1,9 @@
 # HistInsights
 
-A lightweight CLI for assessing historical source reliability from a local text corpus.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python Version](https://img.shields.io/badge/python-%3E%3D3.9-blue.svg)](https://www.python.org/downloads/)
+
+A lightweight CLI for assessing historical source reliability from a local text corpus. HistInsights scores documents by historical signal density and surfaces the most promising sources first.
 
 ## Install
 
@@ -16,10 +19,18 @@ histinsights --source-dir ./corpus
 
 ## Features
 
-- Sign confidence scores for document batches
-- XML-like metadata cache
-- Optional domain filtering
+- Confidence scores for document batches based on historical indicator density
+- Pure stdlib implementation, no external runtime dependencies
+- Reproducible local-first workflow against a directory of text files
+- Optional `--top` flag to surface the most promising sources only
 
-## Tags
+## Development
 
-cli, history, text-analysis, local-first
+```bash
+python3 -m pip install -e .
+pytest -q
+```
+
+## License
+
+MIT. See [LICENSE](LICENSE) for details.

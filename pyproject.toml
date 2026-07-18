@@ -6,8 +6,29 @@ build-backend = "setuptools.build_meta"
 name = "histinsights"
 version = "0.1.0"
 description = "Assess historical source reliability from a local text corpus."
+readme = "README.md"
+license = {text = "MIT"}
 requires-python = ">=3.9"
+authors = [
+    {name = "Dr. Noah Alexander Campbell", email = "noahalexandercampbell@gmail.com"}
+]
+keywords = ["cli", "history", "text-analysis", "local-first"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Text Processing :: Linguistic",
+]
 dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/noahalexandercampbell/histinsights"
+Repository = "https://github.com/noahalexandercampbell/histinsights"
+Issues = "https://github.com/noahalexandercampbell/histinsights/issues"
 
 [project.scripts]
 histinsights = "histinsights.cli:main"

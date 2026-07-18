@@ -1,0 +1,2 @@
+[console_scripts]
+histinsights = histinsights.cli:main
