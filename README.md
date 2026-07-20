@@ -15,7 +15,12 @@ python3 -m pip install .
 
 ```bash
 histinsights --source-dir ./corpus
+histinsights --source-dir ./corpus --top 5
 ```
+
+## Contributing
+
+Issues and pull requests are welcome. Please open an issue describing the bug or proposal before sending a code change.
 
 ## Features
 
