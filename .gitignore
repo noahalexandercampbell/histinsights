@@ -1,10 +1,33 @@
-__pycache__
-.venv
-dist
-build
-.eggs
+# Python
+__pycache__/
 *.pyc
+*.egg-info/
+.eggs/
+src/*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+build/
+dist/
+
+# Data / secrets
 *.db
 .env
+.env.backup
+.env.bak
+
+# Conventional runtime artifacts
+node_modules/
+coverage/
+
+# IDE / OS metadata
+.idea/
+.vscode/
+.DS_Store
+desktop.ini
+Thumbs.db
+
+# Repo tooling notes
 AGENTS.md
 CLAUDE.md

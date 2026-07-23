@@ -1,11 +1,10 @@
 # HistInsights
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Python Version](https://img.shields.io/badge/python-%3E%3D3.9-blue.svg)](https://www.python.org/downloads/)
 
-A lightweight CLI for assessing historical source reliability from a local text corpus. HistInsights scores documents by historical signal density and surfaces the most promising sources first.
+Assess historical source reliability from a local text corpus with a lightweight CLI. HistInsights scores documents by historical signal density and surfaces the most promising sources first.
 
-## Install
+## Installation
 
 ```bash
 python3 -m pip install .
