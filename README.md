@@ -35,6 +35,10 @@ python3 -m pip install -e .
 pytest -q
 ```
 
+
+## Repository
+
+Source, updates, and issues live at [https://github.com/noahalexandercampbell/histinsights](https://github.com/noahalexandercampbell/histinsights).
 ## License
 
 MIT. See [LICENSE](LICENSE) for details.
