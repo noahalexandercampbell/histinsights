@@ -6,20 +6,29 @@ __pycache__/
 src/*.egg-info/
 .pytest_cache/
 .mypy_cache/
+.ruff_cache/
 .venv/
 venv/
 build/
 dist/
+*.log
+tmp/
+out/
+coverage/
+htmlcov/
+.python-version
+pdm.lock
+poetry.lock
 
 # Data / secrets
 *.db
 .env
+.env.local
 .env.backup
 .env.bak
 
 # Conventional runtime artifacts
 node_modules/
-coverage/
 
 # IDE / OS metadata
 .idea/
