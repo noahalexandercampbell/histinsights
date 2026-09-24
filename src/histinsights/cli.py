@@ -1,4 +1,5 @@
 """HistInsights CLI."""
+
 from __future__ import annotations
 
 import argparse
@@ -38,12 +39,10 @@ def _approximate_historical_density(text: str) -> float:
 
 def evaluate(paths: Iterable[Path]) -> List[Tuple[str, float]]:
     results: List[Tuple[str, float]] = []
-    errors: List[str] = []
     for path in paths:
         try:
             text = path.read_text(encoding="utf-8", errors="ignore")
-        except Exception as exc:
-            errors.append(f"Failed to read {path}: {exc}")
+        except Exception:
             continue
         results.append((path.name, _approximate_historical_density(text)))
     return results
