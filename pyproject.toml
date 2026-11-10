@@ -25,6 +25,9 @@ classifiers = [
 ]
 dependencies = []
 
+[project.optional-dependencies]
+dev = ["pytest"]
+
 [project.urls]
 Homepage = "https://github.com/noahalexandercampbell/histinsights"
 Repository = "https://github.com/noahalexandercampbell/histinsights"
